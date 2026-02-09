@@ -1,13 +1,13 @@
 # Loan Approval Prediction (HybridLoan IQ)
 
-![Machine Learning Pipeline in Production](assets/ml-pipeline-in-production.png)
+Machine Learning Pipeline in Production
 
-This project builds a loan approval prediction system using a classic machine learning workflow (data cleaning  feature engineering  model training  evaluation) and exposes predictions through a simple Gradio UI.
+This project builds a loan approval prediction system using a classic machine learning workflow (data cleaning feature engineering  model training evaluation) and exposes predictions through a simple Gradio UI.
 
 > Notebook: `LoanApproval (1).ipynb`
 
 
-## Whats Inside
+## What's Inside
 
 - **Data loading & inspection**: loads a loan approval dataset (CSV), checks shape, dtypes, nulls, and basic stats.
 - **Cleaning**:
@@ -30,6 +30,7 @@ This project builds a loan approval prediction system using a classic machine le
 - **UI**: Gradio interface that predicts loan approval and (optionally) generates an explanation using a Generative AI model.
 
 ## How to Run (Local)
+
 
 ### 1) Create environment
 
